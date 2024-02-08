@@ -1,0 +1,159 @@
+.video {width: 60%;box-shadow: 0 0 5px #BFA4A1;margin-top: -18%;background: black;margin-left: 20%;height: 400px}
+.video iframe{width: 100%;height: 400px;text-align: center;}
+.open-button { width: 15%;height: 50px;margin-top: 20px;border-radius: 50px;background: linear-gradient(#FB4822,gray);border:2px solid black;color: black;font-size: 18px;font-size: 25px;
+   position: fixed; bottom: 23px; right: 28px;
+}
+.form-popup1 {
+ display: all;
+}
+.form-container1 .btn {
+  display: none;
+}
+
+      /* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right:15px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  width: 400px;
+  padding: 10px;
+  background-color: #757575;
+
+}
+
+/* Full-width input fields */
+.form-container input,textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 2px 0 15px 0;
+  border: none;
+  background: white;
+}
+
+.form-container button{width: 40%;padding: 5px;border:2px solid black;border-radius: 20px;background: black;color:white;text-align: center;}
+
+
+.form-container button:hover{background: white;color: black;border:2px solid white}
+
+/* When the inputs get focus, do something */
+.form-container  textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+     #head{color: black;padding: 10px;text-align: center;}
+     #heading{color: black;font-size: 40px}
+     #header{color: black;text-align: center;font-weight: bolder;}
+     #conleft{width: 50%;float: left;margin-left: 6%}
+     #conright{width: 40%;float: right;}
+     #head2{color: black;text-align: center;font-size: 30px}
+     #conleft ol li{font-size: 16px;color: black;}
+     #conright ul{margin-top: 8%}
+     #conright ul li{font-size: 16px;color: black;}
+     #expert{width: 100%;margin-top: 5%}
+     #ex1{width: 33.33%;float: left;}
+     #pro{width: 50%;height:180px;border-radius: 100%;margin-top: 5%}
+     #ex1 p{width: 90%;text-align:justify;margin-top: -2%;color: black;line-height: 25px}
+     #im{width: 8%;height: 30px;border-radius: 5px;padding: 2px;margin-top: -5px}
+
+
+        * {
+  box-sizing: border-box;
+}
+    @media only screen and (max-width:720px) {
+            h5{font-size: 12px}
+      .video {width: 100%;box-shadow: 0 0 5px #BFA4A1;margin-top: -38%;background: black;margin-left: 0%;height: 200px}
+
+      .video iframe{width: 100%;height: 250px;text-align: center;}
+#header{font-size: 20px}
+     #conleft{width: 100%;float: left;margin-left: 0}
+     #conright{width: 100%;float: right;}
+     #head2{color: black;text-align: center;font-size: 11px}
+     #conleft ol li{font-size: 10px;color: black;text-align: left;margin-left: -4%}
+     #conright ul{margin-top: 0;margin-left: -8%}
+     #conright ul li{font-size: 10px;color: black;}
+     #expert{width: 100%;margin-top: 2%;}
+     #ex1{width: 50%;float: left;margin-left: 0;margin-top: 5%;height: 200px}
+     #pro{width: 75%;height: 120px;border-radius: 100%;}
+     #ex1 p{width: 100%;text-align:justify;font-size: 12px;line-height: 15px}
+     #im{width: 15%;height: 30px;border-radius: 5px;padding: 1px;margin-top: -5px}
+     #heading{font-size: 25px}
+     
+
+            
+            #head{font-size: 12px}
+       .open-button {width: 40%;font-size: 20px;height: 40px;position: fixed;
+  bottom: 5px;
+  right: 5px;}
+  
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right:0%;
+  width: 100%
+}
+.form-popup1 {
+  display: none;
+  position: fixed;
+  bottom: 20%;
+  right:1px;
+  width: 99%
+}
+
+/* Add styles to the form container */
+.form-container {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+
+}
+.form-container1 {
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+
+}
+.form-container1 p{color: black}
+
+/* Full-width input fields */
+.form-container input,textarea {
+  width: 90%;
+  padding: 3px;
+  margin: 2px 0 5px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.form-container1 .btn {
+  display: inline;
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  font-size: 35px;
+  margin-left: 90%
+}
+.form-container button{width: 40%;border:2px solid black;padding:10px;border-radius: 20px;background: black;color:white;text-align: center;font-size: 16px;margin-top: -10px}
+.form-container button:hover{width: 40%;border:2px solid white;padding:10px;border-radius: 20px;background: white;color:black;text-align: center;font-size: 16px;margin-top: -10px}
+
+/* When the inputs get focus, do something */
+.form-container input,textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container h1{font-size: 20px}
+   
+
+  }
+  @media only screen and (max-width:360px) {
+#heading{font-size: 20px}
+}

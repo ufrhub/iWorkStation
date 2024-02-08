@@ -1,0 +1,36 @@
+.subnav { float: left;overflow: hidden;color: #FAFAFA;padding: 4px 10px;margin-top: 0px;font-size: 15px}
+      .subnav-content { padding: 5px;text-align: center;display: none; position: absolute;background:black;border-radius: 2px;width: 14%;margin-left: -65px;z-index: 1}
+      .subnav-content a {color: white;text-decoration: none;line-height: 20px;width: 100%;}
+      .subnav-content a:hover {color: #DEFFFC;font-weight: bold;}
+      .subnav:hover .subnav-content {display: block;}
+
+      .subnav-content1 {padding: 5px;text-align: center;display: none; position: absolute;background:black;border-radius: 2px;width: 14%;margin-left: -175px;z-index: 1}
+      .subnav-content1 a {color: white;text-decoration: none;line-height: 20px;width: 100%;}
+      .subnav-content1 a:hover {color: #DEFFFC;font-weight: bold;}
+      .subnav:hover .subnav-content1 {display: block;}
+
+      .subnav-content2 {padding: 5px;text-align: center;display: none; position: absolute;background:black;border-radius: 2px;width: 14%;margin-left: 40px;z-index: 1}
+      .subnav-content2 a {color: white;text-decoration: none;line-height: 20px;width: 100%;}
+      .subnav-content2 a:hover {color: #DEFFFC;font-weight: bold;}
+      .subnav:hover .subnav-content2 {display: block;}
+
+
+
+      @media only screen and (max-width:720px) {
+
+
+        .subnav { float: left; overflow: hidden;color: #F2F2F2;padding: 1px 0px;font-size: 14px}
+      .subnav-content {padding: 5px;text-align: center;display: none; position: absolute;background:black;border-radius: 2px;width: 50%;margin-left: 18%;margin-top: -40px;z-index: 1}
+      .subnav-content a {color: white;text-decoration: none;line-height: 20px;width: 100%;}
+      .subnav-content a:hover {color: #DEFFFC;font-weight: bold;}
+      .subnav:hover .subnav-content {display: block;}
+
+      .subnav-content1 {padding: 5px;text-align: center;display: none; position: absolute;background:black;border-radius: 2px;width: 50%;margin-left: 0%;margin-top: -40px;z-index: 1}
+      .subnav-content1 a {color: white;text-decoration: none;line-height: 20px;width: 100%;}
+      .subnav-content1 a:hover {color: #DEFFFC;font-weight: bold;}
+      .subnav:hover .subnav-content1 {display: block;}
+
+      .subnav-content2 {padding: 5px;text-align: center;display: none; position: absolute;background:black;border-radius: 2px;width: 50%;margin-left: 50%;margin-top: -40px;z-index: 1}
+      .subnav-content2 a {color: white;text-decoration: none;line-height: 20px;width: 100%;}
+      .subnav-content2 a:hover {color: #DEFFFC;font-weight: bold;}
+      .subnav:hover .subnav-content2 {display: block;}

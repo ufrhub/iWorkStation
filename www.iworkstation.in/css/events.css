@@ -1,0 +1,26 @@
+          h5{margin-top: 10px;text-align: center;}
+			#uleft {width: 65%;margin-top: 1%;float: left;margin-left: -10%;}
+      #uleft img{width: 49%;height: 210px;float: left;padding: 10px}
+      #uleft img:hover{width: 51%;height: 220px;padding: 1px}
+			#uright {width: 40%;float: left;color: black;}
+			 #uright p{color: black;font-size: 15px;padding: 30px 0 0 30px;padding-right: 10px;line-height: 27px;text-align: justify;}
+         
+
+     
+      * {
+  box-sizing: border-box;
+}
+    @media only screen and (max-width:1024px) {
+       #uright h5{margin-top: 0px;text-align: center;margin-left: 10px}
+                    #uleft {width: 100%;margin-top: 0;float: left;margin-left: 0}
+      #uleft a{color: black;text-decoration: none;}
+            #uleft img{width: 50%;height: 100px;float: left;padding: 1%}
+      #uleft img:hover{width: 49.9%;height: 100px;padding: 1px}
+
+       #uright {color: black;margin-top: -2%;float: left;width: 96%;margin-left: 0%}
+       #uright p{color: black;font-size: 14px;text-align: justify;line-height: 18px;margin-left: 0%;margin-top: -15px}
+
+
+
+  
+  }
